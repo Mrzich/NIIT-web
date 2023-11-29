@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+
+   <style>
+    .sign-up{
+      background-image: linear-gradient(to right, rgb(65,20,110), rgb(65,20,110));;
+      border-radius: 20px;
+    
+
+    }
+    body{
+      padding-left: 7%;
+      padding-right: 7%;
+    }
+    
+    .social_icons{
+     position: relative;
+     top: 130px;
+
+    }
+    
+   </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <!-- <a class="navbar-brand" href="#">Your Logo</a> -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-around ms-auto"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav ">
+          <li class="nav-item active pe-3">
+            <a class="nav-link fw-bold" href="#"
+              >Courses <span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item pe-3">
+            <a class="nav-link fw-bold" href="#">Pricing</a>
+          </li>
+          <li class="nav-item pe-3">
+            <a class="nav-link fw-bold" href="#">About us</a>
+          </li>
+          <li class="nav-item pe-3">
+            <a class="nav-link fw-bold" href="#">Contact us</a>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="navBar navbar navbar-expand-lg navbar-light  me-1">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-user"></i> <span class="fs-6"> Account</span>
+          <!-- Account Icon -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <!-- Your navigation links here -->
+        </div>
+        <a class="navbar-brand" href="#">
+          <!-- <i class="fas fa-shopping-cart">Store</i> -->
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <span class="fs-6">Store</span>
+          </i>
+          <!-- Store Icon -->
+        </a>
+      </nav>
+    </nav>
+<br>
+    <p class="fw-bolder fs-4 text-center">Contact Us</p>
+    <p class="fw-normal fs-6 text-center">Any questions or remarks? just write us a message!</p>
+
+
+
+<div class="sign-up">
+
+    <section  class="ftco-section p-5 ">
+      
+        <div class="row justify-content-center sect">
+          <div class="col-md-12 color">
+            <div class="wrapper">
+              <div class="row no-gutters">
+                <div class="col-lg-8 col-md-7 order-md-last d-flex  justify-content-between">
+                  <div class="contact-wrap w-100 p-md-5 p-4">
+                    
+                    <div id="form-message-warning" class="mb-4"></div> 
+                    <div id="form-message-success" class="mb-4">
+                      
+                    </div>
+                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                      <div class="row">
+                        <div class="col-md-6 lh-3">
+                          <div class="form-group">
+                            <label class="label text-white" for="name">First Name</label>
+                            <input type="text" class="form-control  " name="name" id="name" placeholder="Name">
+                          </div>
+                        </div>
+                        <div class="col-md-6 lh-3">
+                          <div class="form-group">
+                            <label class="label text-white" for="name">Last Name</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                          </div>
+                        </div>
+                        <br>
+
+                        <div class="col-md-6 lh-3"> 
+                          <div class="form-group">
+                            <label class="label text-white" for="email">Email</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                          </div>
+                        </div>
+
+                        <div class="col-md-6 lh-3">
+                          <div class="form-group border-bottom">
+                            <label class="label text-white" for="name">Phone Number</label>
+                            <input type="tel" class="form-control " name="name" id="name" placeholder="Name">
+                          </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                        <div class="d-inline-flex justify-content-between  me-3 pe-3">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              <label class="form-check-label text-white" for="flexCheckDefault">
+                            General Inquiry
+                          </label>
+                        </div>
+
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              <label class="form-check-label text-white" for="flexCheckDefault">
+                            General Inquiry
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              <label class="form-check-label text-white" for="flexCheckDefault">
+                            General Inquiry
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              <label class="form-check-label text-white" for="flexCheckDefault">
+                            General Inquiry
+                          </label>
+                        </div>
+                      </div>
+
+
+                       
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label text-white" for="#">Message</label>
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+                          </div>
+                        </div>
+
+
+
+
+                        <div class="col-md-12 d-flex justify-content-end mt-4">
+                          <div class="form-group">
+                            <input type="submit" value="Send Message" class="btn btn-dark ">
+                            <div class="submitting"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+               
+                <div class="col-lg-4 col-md-5 d-flex align-items-stretch ">
+                  <div id="right" class="info-wrap bg-primary w-100 p-md-5  ms-3  rounded-3">
+                    <h3 class="text-white fs-4">Contact information</h3>
+                    <p class="mb-4 text-white">Say something to start a live chat!</p>
+                    <br>
+                    
+                   
+
+                    <div class="dbox w-100 d-flex align-items-start ">
+                      <div class="icon d-flex align-items-center justify-content-center me-4">
+                        <i class="fa fa-phone text-white"></i>
+                      </div>
+
+                      <div class="text pl-3">
+                        <p class="fs-6 text-white">+23480818653</p>
+                      </div>
+                    </div>
+
+
+
+
+                    <div class="dbox w-100 d-flex align-items-start ">
+                      <div class="icon d-flex align-items-center justify-content-center me-4">
+                        <i class="fa-regular fa-envelope text-white"></i>
+                      </div>
+
+                      <div class="text pl-3">
+                        <p class="fs-6 text-white">Niit@gmail.com</p>
+                      </div>
+                    </div>
+
+
+
+
+                    <div class="dbox w-100 d-flex align-items-start d-block  ">
+                      <div class="icon d-flex align-items-center justify-content-center me-4">
+                        <span class="fa fa-map-marker text-white"></span>  
+                      </div>
+
+                      <div class="text pl-3">
+                        <p class="fs-6 text-white">NO 1 Kaduna street Dline</p>
+                      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+                    </div>
+                    <div class="social_icons">
+                       
+
+                      <i class="fa-brands fa-twitter bg-dark text-white p-2 rounded-circle"></i>
+                      <i class="fa-brands fa-instagram bg-dark text-white p-2 rounded-circle"></i>
+                      <i class="fa-brands fa-discord bg-dark text-white p-2 rounded-circle"></i>
+
+
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
